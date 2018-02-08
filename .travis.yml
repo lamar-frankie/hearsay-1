@@ -6,3 +6,5 @@ install:
 script:
   - pyflakes hearsay/hearsay.py
   - python3 -m pytest -v
+  - bandit hearsay/hearsay.py
+  
