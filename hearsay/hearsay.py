@@ -1,5 +1,4 @@
 from giphypop import translate
-from hearsay import hearsay
 
 def get_cat_gif():
     """Return Cat Gif URL"""
@@ -14,5 +13,5 @@ def get_cat_fact():
 if __name__ == '__main__':
     cat_gif = get_cat_gif()
     cat_fact = get_cat_fact()
-    print(cat)
-    print(fact)
+    print(cat_gif)
+    print(fact_fact)
