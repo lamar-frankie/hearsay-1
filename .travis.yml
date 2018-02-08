@@ -3,9 +3,5 @@ python:
   - "3.6"
 install:
   - pip3 install -r requirements.txt
-jobs:
-  include:
-    - stage: Check Code Syle
-      script: pycodestyle hearsay/hearsay.py
-    - stage: Unit Tests
-      script: - python3 -m pytest -v
+script:
+  - python3 -m pytest -v
